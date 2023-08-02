@@ -1,0 +1,41 @@
+.all-contain{
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@font-face {
+  font-family: "OpenSans-Bold";
+    src: url(../source/fonts/OpenSans-Bold.ttf) format("truetype");
+}
+
+body {
+/*	background-color: #212529 ;*/
+	background-color: #bbb;
+	font-family: 'OpenSans-Bold';
+}
+
+.nav-link {
+	color: white !important;
+	font-size: 14pt;
+}
+
+.nav-link:hover {
+  color: #C59E47;
+  border-bottom: 2px solid #C59E47;
+}
+
+.active {
+	color: #C59E47 !important;
+  border-bottom: 2px solid #C59E47;
+}
+
+.navbar-expand {
+	height: 100px;
+	box-shadow: 0px 5px 5px 1px gray;
+}
+
+
+
+
