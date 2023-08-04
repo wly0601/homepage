@@ -2,6 +2,7 @@
 	max-width: 1366px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 0px 5px 5px 1px gray;
 }
 
 
@@ -10,15 +11,20 @@
     src: url(../source/fonts/OpenSans-Bold.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: "Roboto-Light";
+    src: url(../source/fonts/Roboto-Light.ttf) format("truetype");
+}
+
 body {
 /*	background-color: #212529 ;*/
 	background-color: #bbb;
-	font-family: 'OpenSans-Bold';
 }
 
 .nav-link {
 	color: white !important;
 	font-size: 14pt;
+	font-family: 'OpenSans-Bold';
 }
 
 .nav-link:hover {
@@ -33,9 +39,58 @@ body {
 
 .navbar-expand {
 	height: 100px;
-	box-shadow: 0px 5px 5px 1px gray;
+	display: flex;
 }
 
+.responsive {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
+}
 
+.card-header {
+	font-size: 95%;
+	font-family: 'OpenSans-Bold';
+}
 
+.card-text {
+	font-size: 90%;
+	font-family: 'Roboto-Light'
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.4);
+	transition: 0.4s;
+}
+
+a.link-to {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+/*.linked {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(29, 106, 154, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.card:hover .linked{
+	visibility: visible;
+	opacity: 1;
+}
+
+.card:hover .desc{
+	visibility: hidden;
+	opacity: 1;
+}*/
 
