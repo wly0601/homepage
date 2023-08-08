@@ -12,13 +12,23 @@
 }
 
 @font-face {
+  font-family: "OpenSans";
+    src: url(../source/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
 	font-family: "Roboto-Light";
     src: url(../source/fonts/Roboto-Light.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: "Hellix-Bold";
+    src: url(../source/fonts/Hellix/Hellix-Bold.ttf) format("truetype");
+}
+
 body {
 /*	background-color: #212529 ;*/
-	background-color: #bbb;
+	background-color: #fff;
 }
 
 .nav-link {
@@ -94,3 +104,27 @@ a.link-to {
 	opacity: 1;
 }*/
 
+.section-title {
+	font-family: 'Hellix-Bold';
+	font-weight: 900;
+	font-style: 'bold';
+}
+
+.greeting {
+	font-family: 'OpenSans-Bold';
+	font-size: 40px;
+}
+
+.greeting-desc {
+	font-family: 'OpenSans';
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: justify;
+	text-justify: inter-word;
+	hyphens: manual;
+}
+
+.skill-point {
+	font-family: 'OpenSans';
+	font-size: 20px;
+}
