@@ -59,13 +59,13 @@ body {
 }
 
 .card-header {
-	font-size: 95%;
+	font-size: 20px;
 	font-family: 'OpenSans-Bold';
 }
 
 .card-text {
-	font-size: 90%;
-	font-family: 'Roboto-Light'
+	font-size: 16px;
+	font-family: 'OpenSans'
 }
 
 .card:hover {
@@ -117,7 +117,7 @@ a.link-to {
 
 .greeting-desc {
 	font-family: 'OpenSans';
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.5;
 	text-align: justify;
 	text-justify: inter-word;
